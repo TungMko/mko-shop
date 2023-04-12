@@ -1,0 +1,98 @@
+
+.today_specials_inner {
+    position: relative;
+    top: -55px;
+    margin: 0 8%;
+    padding: 30px 29px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.sale_head {
+    background-image: url('../img/sale_head.png');
+    width: 100%;
+    height: 155px;
+}
+.todayWrap{
+    display: flex;
+    justify-content: space-between;
+}
+.main-today {
+    margin-left: 10px;
+}
+.main-today-thumbnail{
+    width: 100%;
+}
+.sale_head h1 {
+    margin: 0 auto;
+    padding: 20px 0 0;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #fff;
+    margin: 0 8%;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.titMove {
+    font-size: 26px;
+    color: #333;
+    padding-bottom: 18px;
+    border-bottom: #333 solid 3px;
+    margin-bottom: 20px;
+}
+.prod-brand {
+    display: flex;
+    flex-direction:row-reverse ;
+}
+.prod-brand  i {
+    margin: 5px 0;
+    font-size: 20px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.prod-name {
+    margin-top: 8px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.discount {
+    margin-top: 8px;
+}
+.origin {
+    font-size: 17px;
+    color: #888;
+    text-decoration: line-through
+}
+.price {
+    margin-top: 8px;
+}
+.total {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.rating {
+    margin-top: 8px;
+}
+.rating > .point {
+    background-image: url(../img/bul_star_24.png);
+    background-repeat: no-repeat;
+    padding-left: 18px;
+    background-size: 15px 14px;
+}
+
+.today-sale{
+    margin: 0 8%;
+    padding: 30px 29px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.today_saleBest .todayTit{
+    width: 50%;
+    padding: 20px;
+    border-bottom: 1px solid #cecece;
+}
+.today_saleBest .todayWrap{
+    flex-wrap: wrap;
+    
+}

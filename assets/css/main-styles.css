@@ -1,0 +1,39 @@
+*{
+    font-family: 'Rubik', sans-serif;
+}
+a {
+    font-size: 9px;
+    color: #000;
+    text-decoration: none;
+}
+
+.row{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.row2{
+    display: flex;
+}
+
+.heading {
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+.btn{
+    background: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    cursor: pointer;
+    color: #ffffff;
+    text-align: center;
+    transition: 0.4s;
+    font-weight: 700;
+    font-size: 16px;
+    position: absolute;
+    background-image: url(assets/img/button.png);
+}
