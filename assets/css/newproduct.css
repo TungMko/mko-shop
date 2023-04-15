@@ -1,0 +1,96 @@
+
+.newproduct_head{
+    background-image: url('../img/newproduct_top.png');
+    width: 100%;
+    height: 155px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.today-new{
+    margin-top: -53px;
+    margin-left:  8%;
+    margin-right: 8%;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.new_Wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.today_newbest .new_Tit{
+    width: 50%;
+    padding:10px 0;
+    padding-right: 10px;
+    border-bottom: 1px solid #cecece;
+}
+.today_newbest .new_Wrap{
+    flex-wrap: wrap;
+}
+
+.main-new {
+    margin-left: 10px;
+}
+.main-new-thumbnail{
+    width: 100%;
+}
+.newproduct_head h1 {
+    margin: 0 auto;
+    padding: 20px 0 0;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #000;
+    margin: 0 8%;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.titMove {
+    font-size: 26px;
+    color: #333;
+    padding-bottom: 18px;
+    border-bottom: #333 solid 3px;
+    margin-bottom: 20px;
+}
+.prod-brand {
+    display: flex;
+    flex-direction:row-reverse ;
+}
+.prod-brand  i {
+    margin: 5px 0;
+    font-size: 20px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.prod-name {
+    margin-top: 8px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.discount {
+    margin-top: 8px;
+}
+.origin {
+    font-size: 17px;
+    color: #888;
+    text-decoration: line-through
+}
+.price {
+    margin-top: 8px;
+}
+.total {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.rating {
+    margin-top: 8px;
+}
+.rating > .point {
+    background-image: url(../img/bul_star_24.png);
+    background-repeat: no-repeat;
+    padding-left: 18px;
+    background-size: 15px 14px;
+}
+
