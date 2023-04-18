@@ -50,30 +50,35 @@
   
   input[type="text"] {
     padding: 10px 40px 10px 10px;
-    border: 3px solid #9bce26;
+    border: 3px solid #b4d9eb;
     border-radius: 50px;
-    box-shadow: 0 0 7px rgba(0, 255, 21, 0.2);
+    box-shadow: 0 0 7px #b4d9eb;
     width: 300px;
+    position: relative;
   }
   
   button[type="submit"] {
     position: absolute;
-    right: 0;
-    top: 0;
-    background-color: #9bce26;
+    right: 35px;
+    top: 9px;
+    background-color: #b4d9eb;
     color: white;
-    border: none;
-    padding: 10px;
+    border:#b4d9eb ;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
   }
   
   button[type="submit"] i {
     font-size: 20px;
+    position: absolute;
+    color: #000000;
+    font-weight: 600;
+    opacity: 0.6;
   }
   
   button[type="submit"]:hover {
-    background-color: #9bce26;
+    background-color: #b4d9eb;
+    border: #b4d9eb;
   }
 
 .menu-favourite_nav {
@@ -293,6 +298,7 @@
     width: 100%;
     text-align: center;
     justify-content: center;
+    cursor: pointer;
 }
 .top-wap-sub span {
     display: block;
@@ -352,7 +358,72 @@
     font-size: 21px;
 }
 /* end top-priority */
+/* start conten-about */
+.conten-about{
+    width: 100%; 
+    height: 600px;
+}
+.conten-about_row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
 
+.heading span{
+    color: black;
+}
+.about-video{
+    max-width: 100%;
+    border: 15px solid #fff;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
+    max-height: 400px;
+}
+.about-video{
+    position: relative;
+    cursor: pointer;
+}
+.about-video h3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 60px;
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    mix-blend-mode: screen;
+    z-index: 1;
+}
+.about-conten {
+    margin: 20px;
+    width: 50%;
+}
+.about-conten p{
+    margin: 12px 0;
+    line-height: 1.5;
+}
+.about-conten h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: rgb(56, 142, 163);
+}
+a.btn {
+    text-decoration: none;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.backgroud-shoes {
+    width: 80%;
+    height: 60vh;
+    background-image: url(./assets/images/IMG_0058.PNG);
+    background-size: cover;
+    background-position: center;
+    margin: 0 10%;
+    margin-bottom: 3%;
+}
+.backgroud-shoes img {
+    height: 100vh;
+}
+/* end conten-about */
 .weekly-special img{
     width: 100%;
 }
@@ -392,40 +463,4 @@
 .healthy-life_text p{
     font-weight: 900;
     font-size: 25px;
-}
-/*start footer*/
-.footer{
-    padding: 5% 5%;
-    display: flex;
-    justify-content: space-between;
-    background-color: #cce7d0;
-}
-.footer p { 
-    font-size: 13px;
-}
-.footer .icon{
-    margin-top: 2%;
-    font-size: 20px;
-    padding: 0 3px;
-}
-.footer .icon a{
-    text-decoration: none;
-    color: #000;
-}
-.footer ul li {
-    list-style: none;
-    padding: 3px 0;
-}
-.footer ul li a {
-    text-decoration: none;
-    font-size: 12px;
-    color: #606063;
-}
-.footer ul li a:hover {
-    color: #222;
-} 
-/* end footer */
-.end-web {
-    text-align: center;
-    font-size: 12px;
 }
