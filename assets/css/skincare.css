@@ -1,0 +1,35 @@
+.skincare {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 5% 50px 5%;
+}
+.skincare-filter {
+    max-width: 400px;
+}
+.skincare h3{
+    padding-bottom: 18px;
+}
+.skincare h1{
+    padding-bottom: 9px;
+}
+.skincare-list h3 {
+    margin-top: 100px;
+}
+.skincare-list-imput li{
+    margin-top: 8px;
+}
+.skincare-line {
+    border-bottom: 2px;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 60px;
+}
+.skincare-menu-list{
+    display: flex;
+    justify-content: space-between;
+}
+.skincare-menu {
+    margin: 20px 0;
+    padding: 5px;
+}
