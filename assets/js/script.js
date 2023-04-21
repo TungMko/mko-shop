@@ -41,3 +41,54 @@ if (logo) {
     sub.addEventListener("mouseleave", function(event) {
         sub.style.display = "none";
       });
+
+
+// lọc sản phẩm
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const products = document.querySelectorAll('.skincare-product-box');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // loại bỏ lớp active của tất cả các nút bộ lọc
+        filterBtns.forEach(btn => {
+          btn.classList.remove('active');
+        });
+        // thêm lớp active vào nút bộ lọc đang được click
+        btn.classList.add('active');
+
+        // lọc sản phẩm theo bộ lọc được chọn
+        const filter = btn.dataset.filter;
+        products.forEach(product => {
+          if (product.classList.contains(filter)) {
+            product.style.display = 'block';
+          } else {
+            product.style.display = 'none';
+          }
+        });
+      });
+    });
+
+// lọc sản phẩm
+const filterBtn = document.querySelectorAll('.filter-btn');
+const product = document.querySelectorAll('.product-box');
+
+filterBtn.forEach(btn => {
+  btn.addEventListener('click', () => {
+    // loại bỏ lớp active của tất cả các nút bộ lọc
+    filterBtn.forEach(btn => {
+      btn.classList.remove('active');
+    });
+    // thêm lớp active vào nút bộ lọc đang được click
+    btn.classList.add('active');
+
+    // lọc sản phẩm theo bộ lọc được chọn
+    const filter = btn.dataset.filter;
+    product.forEach(product => {
+      if (product.classList.contains(filter)) {
+        product.style.display = 'block';
+      } else {
+        product.style.display = 'none';
+      }
+    });
+  });
+});

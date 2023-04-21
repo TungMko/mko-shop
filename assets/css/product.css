@@ -1,67 +1,7 @@
-.skincare {
+.product-all {
     display: flex;
     justify-content: space-between;
     margin: 50px 5% 50px 5%;
-}
-.skincare-product{
-    flex: 3;
-}
-.skincare-filter {
-    flex: 1;
-}
-.skincare h3{
-    padding-bottom: 18px;
-}
-.skincare h1{
-    padding-bottom: 9px;
-}
-.skincare-list h3 {
-    margin-top: 100px;
-}
-.skincare-list-imput li{
-    margin-top: 8px;
-}
-.skincare-line {
-    border-bottom: 2px;
-    width: 80%;
-    height: 2px;
-    background-color: black;
-    margin-top: 60px;
-}
-.skincare-menu-list{
-    display: flex;
-    justify-content: space-between;
-}
-
-.skincare-menu {
-    margin: 20px 0;
-    padding: 5px;
-    position: relative;
-}
-.skincare-menu::before{
-    content: "";
-    width: 100%;
-    height: 1px;
-    background-color: #000;
-    bottom: 0px;
-    position:absolute;
-}
-.skincare-menu-list li{
-    position: relative;
-    padding-bottom: 3px;
-}
-.skincare-menu-list li::after {
-    content: "";
-    width: 0;
-    height: 3px;
-    position: absolute;
-    background-color: #b4d9eb;
-    bottom: 0;
-    left: 0;
-    transition: 0.5s;
-}
-.skincare-menu-list li:hover::after{
-    width: 100%;
 }
 .filters{
 
@@ -88,29 +28,90 @@
 .filter-btn:hover::after{
     width: 100%;
 }
+.product-content{
+    flex: 3;
+}
+.product-filter {
+    flex: 1;
+}
+.product-all h3{
+    padding-bottom: 18px;
+}
+.product-all h1{
+    padding-bottom: 9px;
+}
+.product-list h3 {
+    margin-top: 100px;
+}
+.filters{
+    margin-top: 8px;
+}
+.produict-line {
+    border-bottom: 2px;
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    margin-top: 60px;
+}
+.product-menu-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-menu {
+    margin: 20px 0;
+    padding: 5px;
+    position: relative;
+}
+.product-menu::before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    bottom: 0px;
+    position:absolute;
+}
+.product-menu-list li{
+    position: relative;
+    padding-bottom: 3px;
+}
+.product-menu-list li::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    position: absolute;
+    background-color: #b4d9eb;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.product-menu-list li:hover::after{
+    width: 100%;
+}
+
 /* skincare-product-items */
-.skincare-product-items{
+.product-items{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.skincare-product-box{
+.product-box{
     width: 24%;
     margin-left: 5px;
     margin-bottom: 20px;
 }
-.skincare-product-box img{
+.product-box img{
     width: 100%;
 }
-.skincare-product-heading{
+.product-heading{
     text-transform: uppercase;
     margin-top: 10px;
     margin-bottom: 8px;
 }
-.skincare-product-boxitems{
+.product-boxitems{
     margin-bottom: 6px;
 }
-.skincare-product-boxitems h4{
+.product-boxitems h4{
     margin-bottom: 15px;
 }
 .productPrice{
