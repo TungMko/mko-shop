@@ -89,7 +89,7 @@
     width: 100%;
 }
 
-/* skincare-product-items */
+/*product-items */
 .product-items{
     display: flex;
     flex-wrap: wrap;
@@ -104,9 +104,11 @@
     width: 100%;
 }
 .product-heading{
+    font-size: 12px;
     text-transform: uppercase;
     margin-top: 10px;
     margin-bottom: 8px;
+    opacity: 0.7;
 }
 .product-boxitems{
     margin-bottom: 6px;

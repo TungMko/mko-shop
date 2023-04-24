@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oder sản phẩm hàn quốc-MKO</title>
+    <link rel="icon" type="image/png" href="/assets/img/logo.png">
+    <link rel="stylesheet" href="assets/css/sale.css">
+    <link rel="stylesheet" href="assets/css/main-styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/themify-icons/themify-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;800;900&display=swap');
+    </style>
+    <div class="container">
+        <div class="wrapper" id="login">
+            <img id="logo"  src="./assets/img/logo.png" width="150px" alt="">
+            <div class="title">
+                Mko cảm ơn bạn
+            </div>
+            <form action="#">
+                <div class="field">
+                    <input type="text" name="email" id="email" required>
+                    <label for="email">Email Addres</label>
+                </div>
+                <div class="field">
+                    <input type="password" name="password" id="password" required>
+                    <label for="password">Password</label>
+                </div>
+                <div class="content">
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label for="checkbox">Remember me</label>
+                    </div>
+                    <div class="pass-link">
+                        <a href="#">Forgot password</a>
+                    </div>
+                </div>
+                <div class="field">
+                    <input type="submit" value="Login">
+                </div>
+                <div class="signup-link">
+                    <div class="link-social">
+                        <p>Or Login Using</p>
+                        <div class="icon">
+                            <i class="ti-facebook"></i>
+                            <i class="ti-apple"></i>
+                            <i class="ti-google"></i>
+                        </div>
+                    </div>
+                    <div class="link-signup">
+                        <p>Or Signup Using</p>
+                        <a id="singnup-btn">SIGNUP</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="wrapper" id="register">
+            <img id="logo2"  src="./assets/img/logo.png" width="150px" alt="">
+            <div class="title">
+                Mko cảm ơn bạn
+            </div>
+            <form action="#">
+                <div class="field">
+                    <input type="text" id="name">
+                    <label for="name">Username</label>
+                </div>
+                <div class="field">
+                    <input type="text" name="email" id="email" required>
+                    <label for="email">Email Addres</label>
+                </div>
+                <div class="field">
+                    <input type="password" name="password" id="password" required>
+                    <label for="password">Password</label>
+                </div>
+                <div class="field">
+                    <input type="password" name="confirm-password" id="password" required>
+                    <label for="confirm-password">Confirm Password</label>
+                </div>
+                <div class="content">
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label for="checkbox">Remember me</label>
+                    </div>
+                    <div class="pass-link">
+                        <a href="#">Forgot password</a>
+                    </div>
+                </div>
+                <div class="field">
+                    <input type="submit" value="Login">
+                </div>
+                <div class="signup-link">
+                    <div class="link-social">
+                        <p>Or Signup Using</p>
+                        <div class="icon">
+                            <i class="ti-facebook"></i>
+                            <i class="ti-apple"></i>
+                            <i class="ti-google"></i>
+                        </div>
+                    </div>
+                    <div class="link-signup">
+                        <p>Or Signup Using</p>
+                        <a id="login-btn">Login</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        // ẩn hiện signup
+        const signup = document.getElementById('register');
+        const login = document.getElementById('login')
+        const singnupBtn = document.getElementById('singnup-btn');
+        const loginBtn = document.getElementById('login-btn')
+
+        singnupBtn.addEventListener("click", function(event) {
+            signup.style.display = "block";
+            login.style.display = "none";
+            });
+
+        loginBtn.addEventListener("click", function(event) {
+        login.style.display = "block";
+        signup.style.display = "none";
+            });
+
+        // logo
+        const logo = document.getElementById('logo');
+        const logo2 = document.getElementById('logo2');
+
+        if (logo) {
+        logo.onclick = function() {
+        window.location.href = "index.html";
+        };};
+        if (logo2) {
+        logo2.onclick = function() {
+        window.location.href = "index.html";
+        };};
+    </script>
+</body>
+</html>
+
+
