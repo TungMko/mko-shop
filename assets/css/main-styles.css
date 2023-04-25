@@ -489,5 +489,66 @@ form .link-signup a:hover{
         left: 10%;
         font-size: 30px;
     }
+    .container-background{
+        height: 50vh;
+    }
+    /* top-priority */
+    .top-priority_left h2{
+        font-size: 20px;
+    }
+    .top-priority{
+        display: block;
+    }
+    .top-priority_left{
+        width: 100%;
+    }.top-priority_right{
+        width: 100%;
+        padding-top: 50px;
+    }
+    .between{
+        display: none;
+    }
+    .top-priority-box h4{
+        font-size: 10px;
+    }
+    .top-priority-boxitems del{
+        font-size: 10px;
+    }
+    .priorityPrice{
+        font-size: 15px;
+    }
+    .priority-star-widget{
+        margin-right: 3px;
+        line-height: 19px;
+    }
+    .priority-star-widget i{
+        font-size: 10px;
+    }
+    .ppriority-revier span{
+        font-size: 10px;
+    }
+    .ppriority-revier i{
+        font-size: 15px;
+    }
+    /* about us */
+    .conten-about_row{
+        display: block;
+        height: 100%;
+    }
+    .about-conten{
+        width: 100%;
+    }
+    .about-conten .btn {
+        position: relative;
+    }
+    /* footer */
+    .footer{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    .footer .col {
+        margin-top: 30px;
+    }
 }
 /* End media query */
