@@ -13,7 +13,20 @@ if (close) {
         nav.classList.remove('active');
     })
 }
+// đăng nhập
+const loginMobile = document.getElementById('login-mobile--item')
+const bagMobile = document.getElementById('store-mobile')
 
+if (loginMobile){
+  loginMobile.onclick = function() {
+    window.location.href = "login.html"
+  }
+}
+if (bagMobile){
+  bagMobile.onclick = function() {
+    window.location.href = "login.html"
+  }
+}
 // logo
 const logo = document.getElementById('logo');
 

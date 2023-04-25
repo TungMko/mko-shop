@@ -99,6 +99,9 @@ li {
     align-items: center;
     margin: 0 10%;
 }
+.login-mobile{
+    display: none;
+}
 #logo {
     width: 160px;
     cursor: pointer;
@@ -265,6 +268,7 @@ li {
 /* login */
 
 .wrapper{
+    margin-top: 40px;
     position: relative;
     width: 380px;
     border-radius: 10px;
@@ -401,7 +405,6 @@ form .link-signup a:hover{
 
 /* đăng kí */
 #register {
-    margin-top: -5%;
     display: none;
 }
 #logo2 {
@@ -459,6 +462,12 @@ form .link-signup a:hover{
     }
     .header-seach input[type="text"] {
         width: 200px;
+    }
+    .login-mobile{
+        display: flex;
+    }
+    #login-mobile--item{
+        margin-right: 15px;
     }
     #header-nav_unit {
         display: none;
