@@ -473,7 +473,7 @@ form .link-signup a:hover{
         display: none;
     }
     .mobile-nav li a{
-        font-size: 9px;
+        font-size: 11px;
     }
     .mobile-nav li {
         width: 100%;
@@ -494,12 +494,21 @@ form .link-signup a:hover{
     .container-background{
         height: 50vh;
     }
+    /* start top-wap */
+    .top-wap {
+        margin-top: 40px;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+
+    }
     /* top-priority */
     .top-priority_left h2{
         font-size: 20px;
     }
     .top-priority{
         display: block;
+        margin: 50px 2% 0 2%;
     }
     .top-priority_left{
         width: 100%;
@@ -537,6 +546,10 @@ form .link-signup a:hover{
     .conten-about_row{
         display: block;
         height: 100%;
+        margin: 0px;
+    }
+    .about-video{
+        display: none;
     }
     .about-conten{
         width: 100%;
