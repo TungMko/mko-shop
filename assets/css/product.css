@@ -112,9 +112,15 @@
 }
 .product-boxitems{
     margin-bottom: 6px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+     overflow: hidden;
+     font-size: 16px;
 }
 .product-boxitems h4{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    font-weight: 500;
 }
 .productPrice{
     color: brown;

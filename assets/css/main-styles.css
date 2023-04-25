@@ -159,7 +159,7 @@ li {
     width: 100%;
     border: 1px solid #ddd;
     border-bottom: 2px solid #555;
-    padding: 20px 0;
+    line-height: 50px;
     text-align: center;
 }
 .header-nav_list li {
@@ -460,13 +460,6 @@ form .link-signup a:hover{
     .header-seach input[type="text"] {
         width: 200px;
     }
-    .header-nav_list {
-        
-    }
-    .header-nav > .mobile-nav {
-        padding: 10px 30px;
-    }
-
     #header-nav_unit {
         display: none;
     }
@@ -505,11 +498,11 @@ form .link-signup a:hover{
         width: 100%;
         padding-top: 50px;
     }
+    .boxitems-heading{
+        margin-bottom: 13px;
+    }
     .between{
         display: none;
-    }
-    .top-priority-box h4{
-        font-size: 10px;
     }
     .top-priority-boxitems del{
         font-size: 10px;
@@ -523,6 +516,9 @@ form .link-signup a:hover{
     }
     .priority-star-widget i{
         font-size: 10px;
+    }
+    .star i{
+        color: #db4437;
     }
     .ppriority-revier span{
         font-size: 10px;
