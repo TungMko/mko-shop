@@ -93,20 +93,3 @@ filterBtn.forEach(btn => {
   });
 });
 
-
-
-// ẩn hiện signup
-const signup = document.getElementById('register');
-const login = document.getElementById('login')
-const singnupBtn = document.getElementById('singnup-btn');
-const loginBtn = document.getElementById('login-btn')
-
-singnupBtn.addEventListener("click", function(event) {
-    signup.style.display = "block";
-    login.style.display = "none";
-      });
-
-loginBtn.addEventListener("click", function(event) {
-  login.style.display = "block";
-  signup.style.display = "none";
-    });
