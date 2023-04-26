@@ -106,3 +106,23 @@ filterBtn.forEach(btn => {
   });
 });
 
+// Thêm sự kiện cuộn trang
+window.addEventListener("scroll", function() {
+  var menu = document.getElementById("nav-mobile");
+  var currentPosition = window.pageYOffset;
+
+  // Kiểm tra vị trí cuộn trang để hiển thị hoặc ẩn menu
+  if (currentPosition > 0) {
+    menu.classList.add("show");
+  } else {
+    menu.classList.remove("show");
+  }
+});
+
+
+
+
+
+
+
+
