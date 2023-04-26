@@ -459,7 +459,7 @@ form .link-signup a:hover{
     }
     #nav-mobile {
         position: fixed;
-        bottom: -100px;
+        bottom: 0;
         justify-content: space-between;
         width: 100%;
         background-color: var(--container-color);
@@ -474,8 +474,8 @@ form .link-signup a:hover{
         list-style: 3.5rem;
         transform: top .4s ease-in-out;
     }
-    #nav-mobile.show {
-        bottom: 0px;
+    #nav-mobile.hidden{
+        bottom: -100px;
     }
     #nav-mobile i{
         row-gap: .25rem;

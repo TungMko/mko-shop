@@ -107,20 +107,17 @@ filterBtn.forEach(btn => {
 });
 
 // Thêm sự kiện cuộn trang
-window.addEventListener("scroll", function() {
-  var menu = document.getElementById("nav-mobile");
-  var currentPosition = window.pageYOffset;
-
-  // Kiểm tra vị trí cuộn trang để hiển thị hoặc ẩn menu
-  if (currentPosition > 0) {
-    menu.classList.add("show");
-  } else {
-    menu.classList.remove("show");
+var prevScrollpos = window.pageYOffset;
+var navMobile = document.getElementById("nav-mobile");
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (navMobile && prevScrollpos > currentScrollPos) {
+    navMobile.classList.remove("hidden");
+  } else if (navMobile) {
+    navMobile.classList.add("hidden");
   }
-});
-
-
-
+  prevScrollpos = currentScrollPos;
+}
 
 
 
