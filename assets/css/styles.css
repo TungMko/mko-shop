@@ -152,6 +152,7 @@
 }
 .top-priority-box img{
     width: 98%;
+    cursor: pointer;
 }
 .top-priority_heading{
     display: flex;

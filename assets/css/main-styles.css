@@ -59,7 +59,7 @@ li {
     content: "";
     position: absolute;
     background-color: #b4d9eb;
-    bottom: -10px;
+    bottom: 10px;
     width: 0;
     height: 4px;
     left: 30px;
@@ -148,7 +148,7 @@ li {
     background-color: #b4d9eb;
     border: #b4d9eb;
   }
-.nav-mobile{
+#nav-mobile{
     display: none;
 }
 .menu-favourite_nav {
@@ -191,7 +191,7 @@ li {
 }
 .header-nav_list a {
     font-weight: 800;
-    font-size: 15px;
+    font-size: 18px;
     position: relative;
 }
 #header-nav_unit {
@@ -464,14 +464,14 @@ form .link-signup a:hover{
         width: 100%;
         background-color: var(--container-color);
         box-shadow: 0 -1px 5px #1da1f2 ;
-        height: 3.5rem;
+        height: 2.5rem;
         padding: 0 1rem;
         display: grid;
         align-content: center;
         border-radius: 10px 10px 0 0;
         display: flex;
         z-index: 2;
-        list-style: 3.5rem;
+        list-style: 2.5rem;
         transform: top .4s ease-in-out;
     }
     #nav-mobile.hidden{
@@ -479,8 +479,8 @@ form .link-signup a:hover{
     }
     #nav-mobile i{
         row-gap: .25rem;
-        font-size: 22px;
-        line-height: 3.5rem;
+        font-size: 20px;
+        line-height: 2.5rem;
     }
     .menu-favourite{
         display: none;
@@ -496,6 +496,7 @@ form .link-signup a:hover{
     }
     .login-mobile{
         display: flex;
+        margin-left: 18px;
     }
     #login-mobile--item{
         margin-right: 15px;
@@ -504,7 +505,7 @@ form .link-signup a:hover{
         display: none;
     }
     .mobile-nav li a{
-        font-size: 10px;
+        font-size: 15px;
     }
     .mobile-nav li {
         width: 100%;

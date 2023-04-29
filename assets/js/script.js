@@ -1,3 +1,22 @@
+// logo
+const logo = document.getElementById('logo');
+
+if (logo) {
+  logo.onclick = function() {
+  window.location.href = "index.html";
+  };
+  };
+
+ // produc-detail
+ const detailProducts = document.querySelectorAll('.detail-product');
+ detailProducts.forEach(detailProduct => {
+   detailProduct.addEventListener('click', () => {
+     // Lấy ID của sản phẩm tương ứng và hiển thị nó
+     const productId = detailProduct.getAttribute('product-detail-box');
+     window.location.href = "product-detail.html";
+   });
+ });
+ 
 
 const bar = document.getElementById('bar');
 const nav = document.getElementById('navbar');
@@ -12,7 +31,9 @@ if (close) {
     close.addEventListener('click',() =>{
         nav.classList.remove('active');
     })
-}
+};
+
+
 // đăng nhập
 const loginMobile = document.getElementById('login-mobile--item')
 const bagMobile = document.getElementById('store-mobile')
@@ -27,15 +48,9 @@ if (bagMobile){
     window.location.href = "login.html"
   }
 }
-// logo
-const logo = document.getElementById('logo');
 
-if (logo) {
-  logo.onclick = function() {
-  window.location.href = "index.html";
-  };
-  };
 
+ 
      // ẩn hiện menu
     const items = document.getElementById('header-nav_unit');
     const sub = document.getElementById('navbar_list_sub');
@@ -118,8 +133,4 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
-
-
-
-
 

@@ -90,6 +90,12 @@
 }
 
 /*product-items */
+#myProduct{
+    cursor: pointer;
+}
+.detail-product{
+    cursor: pointer;
+  }
 .product-items{
     display: flex;
     flex-wrap: wrap;
