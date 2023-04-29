@@ -565,14 +565,18 @@ form .link-signup a:hover{
         line-height: 19px;
     }
     .priority-star-widget i{
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .ppriority-revier span{
-        font-size: 10px;
+        font-size: 12px;
+        line-height: 30px;
     }
-    .ppriority-revier i{
-        font-size: 15px;
+    .priority-star-widget .ppriority-revier i{
+        font-size: 20px;
+    }
+    .priority-star-widget{
+
     }
     /* about us */
     .conten-about_row{
@@ -588,6 +592,63 @@ form .link-signup a:hover{
     }
     .about-conten .btn {
         position: relative;
+    }
+    /* product */
+    .product-all{
+        margin-top: 10px;
+        display: block;
+        margin-left: 2%;
+        margin-right: 3%;
+    }
+    .produict-line{
+        margin-top: 15px;
+    }
+    .product-list h3{
+        margin-top: 15px;
+    }
+    .product-content-background img{
+        width: 100%;
+    }
+    .product-box {
+        width: 48%;
+    }
+    .star-pre {
+        line-height: 30px;
+    }
+    .star-widget .star-pre a{
+        font-size: 13px;
+    }
+    .product-revier span {
+        font-size: 13px;
+    }
+    .product-revier i {
+        font-size: 20px;
+    }
+
+
+    /* product detail */
+    #product-detail-box{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .product-detail_top li a{
+        font-size: 12px;
+    }
+    .product-detail_top li i {
+        font-size: 9px;
+    }
+    #product-detail-box {
+        display: block;
+    }
+    .product-detail-boxleft{
+        width: 100%;
+    }
+    .product-detail-boxright {
+        width: 100%;
+        margin-left: 0;
+    }
+    .prd-more-info {
+        margin: 10px 0;
     }
     /* footer */
     .footer{

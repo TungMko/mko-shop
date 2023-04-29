@@ -3,7 +3,7 @@ const logo = document.getElementById('logo');
 
 if (logo) {
   logo.onclick = function() {
-  window.location.href = "index.html";
+  window.location.href = "../index.html";
   };
   };
 
@@ -11,9 +11,8 @@ if (logo) {
  const detailProducts = document.querySelectorAll('.detail-product');
  detailProducts.forEach(detailProduct => {
    detailProduct.addEventListener('click', () => {
-     // Lấy ID của sản phẩm tương ứng và hiển thị nó
-     const productId = detailProduct.getAttribute('product-detail-box');
-     window.location.href = "product-detail.html";
+     const productId = detailProduct.getAttribute('data-url');
+     window.location.href = productId;
    });
  });
  
@@ -40,12 +39,12 @@ const bagMobile = document.getElementById('store-mobile')
 
 if (loginMobile){
   loginMobile.onclick = function() {
-    window.location.href = "login.html"
+    window.location.href = "../login.html"
   }
 }
 if (bagMobile){
   bagMobile.onclick = function() {
-    window.location.href = "login.html"
+    window.location.href = "../login.html"
   }
 }
 
