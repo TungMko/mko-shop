@@ -15,6 +15,9 @@ a {
     color: #000;
     text-decoration: none;
 }
+.ti-heart{
+    cursor: pointer;
+}
 li {
     list-style: none;
 }
@@ -262,6 +265,13 @@ li {
 .sub_menu_box ul li {
     opacity: 0.7;
 }
+.sub_menu_box ul li:hover {
+    list-style:disc;
+    color: #1da1f2;
+}
+.sub_menu_box ul a:hover {
+    color: #1da1f2;
+}
 .sub_menu_box ul li:first-child {
     font-weight: 900;
     opacity: 1;
@@ -464,15 +474,15 @@ form .link-signup a:hover{
         width: 100%;
         background-color: var(--container-color);
         box-shadow: 0 -1px 5px #1da1f2 ;
-        height: 2.5rem;
+        height: 3.5rem;
         padding: 0 1rem;
         display: grid;
         align-content: center;
         border-radius: 10px 10px 0 0;
         display: flex;
         z-index: 2;
-        list-style: 2.5rem;
-        transform: top .4s ease-in-out;
+        list-style: 3.5rem;
+        transform: top .3s ease-in-out;
     }
     #nav-mobile.hidden{
         bottom: -100px;
@@ -480,7 +490,7 @@ form .link-signup a:hover{
     #nav-mobile i{
         row-gap: .25rem;
         font-size: 20px;
-        line-height: 2.5rem;
+        line-height: 3.5rem;
     }
     .menu-favourite{
         display: none;
