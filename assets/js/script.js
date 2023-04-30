@@ -3,7 +3,7 @@ const logo = document.getElementById('logo');
 
 if (logo) {
   logo.onclick = function() {
-  window.location.href = "../index.html";
+  window.location.href = "index.html";
   };
   };
 
@@ -39,12 +39,12 @@ const bagMobile = document.getElementById('store-mobile')
 
 if (loginMobile){
   loginMobile.onclick = function() {
-    window.location.href = "../login.html"
+    window.location.href = "login.html"
   }
 }
 if (bagMobile){
   bagMobile.onclick = function() {
-    window.location.href = "../login.html"
+    window.location.href = "login.html"
   }
 }
 
